@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Legendbit</title>
+	</head>
+	<body>
+		<%- body %>
+	</body>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript">
+		var socket = io.connect('http://legendbit.com:3000');
+		socket.on('news', function (data){
+			socket.emit('my other event', { my: 'data' });
+		});
+	</script>
+</html>

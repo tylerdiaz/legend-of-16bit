@@ -1,0 +1,21 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "async": "*",
+    "canvas": "^2.2.0",
+    "connect-flash": "*",
+    "ejs": "*",
+    "ejs-locals": "*",
+    "express": "^3.0.0",
+    "mongose": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "socket.io": "^1.3.3",
+    "underscore": "*"
+  }
+}
